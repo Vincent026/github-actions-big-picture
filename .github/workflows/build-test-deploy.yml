@@ -1,6 +1,9 @@
 name: build-test-deploy
 
-on: push
+on:
+  push:
+  workflow_dispatch:  # manual
+
 
 jobs:
   build:
