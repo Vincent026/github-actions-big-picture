@@ -1,7 +1,10 @@
 name: build-test-deploy
 
 on:
-  # push:
+  push:
+    paths:
+      - ".github/workflows/build-test-deploy.yml"
+      - "/pages/api"
   workflow_dispatch:  # manual
 
 
