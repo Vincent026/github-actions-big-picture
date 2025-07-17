@@ -33,7 +33,7 @@ jobs:
     
     permissions:
       contents: write
-      pages: : write
+      pages: write
       id-token: write
 
     environment:
